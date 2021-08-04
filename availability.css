@@ -1,0 +1,65 @@
+.pk{
+    width: 450.5px;
+    height: 450.5px;
+}
+.pr{
+    text-decoration: none;
+    color: black;
+}
+.container1{
+    position: relative;
+}
+
+.bottom-left{
+    position: absolute;
+    
+    left: 15%;
+    top:60% ;
+}
+.top-left{
+    position: absolute;
+    top: 15%;
+    left:58%;
+}
+.top-right{
+    position: absolute;
+    top:20% ;
+    left: 75% ;
+}
+.centered{
+    position: absolute;
+    
+    top: 40% ;
+    left: 55%;
+}
+.bottom-right{
+    position: absolute;
+    top: 70%;
+    left: 35% ;
+}
+
+.txt{
+    position: absolute;
+    top: 100%;
+    left: -10% ; 
+}
+
+pr{
+    color:white;
+}
+.main-container{
+
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+a{
+    text-decoration: none;
+}
+@media (max-width: 762px){
+
+
+    .main-container{
+        grid-template-columns: auto;
+    }
+}
